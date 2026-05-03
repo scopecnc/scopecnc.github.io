@@ -1,0 +1,54 @@
+title: ScopeCNC
+author: ScopeCNC
+url: "https://scopecnc.github.io"
+baseurl: ""
+
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
+navbar-links:
+  Home: "https://scopecnc.github.io"
+  About: "about/"
+  Hardware: "hardware/"
+  Software: "software/"
+  Gallery: "gallery/"
+  Documentation: "documentation/"
+
+title-img: /assets/img/scopecnc_logo.png
+
+navbar-col: "#1a1a2e"
+navbar-text-col: "#EAEAEA"
+navbar-border-col: "#16213e"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#0f3460"
+hover-col: "#e94560"
+footer-col: "#1a1a2e"
+footer-text-col: "#AAAAAA"
+footer-link-col: "#EAEAEA"
+footer-hover-col: "#e94560"
+
+navbar-var-length: true
+
+site-css:
+  - "/assets/css/custom.css"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:path/
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap

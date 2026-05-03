@@ -1,0 +1,20 @@
+/* ScopeCNC custom styles */
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background-color: #0f3460;
+    border-color: #0f3460;
+}
+
+.btn-primary:hover {
+    background-color: #e94560;
+    border-color: #e94560;
+}
